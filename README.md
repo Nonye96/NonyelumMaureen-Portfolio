@@ -68,12 +68,12 @@ NonyelumMaureen-Portfolio/
 └── README.md
 ```
 ---
- Deployment
+## Deployment
 
 This website is deployed using GitHub Pages and is built from the main branch of this repository.
 
 ---
- Purpose
+## Purpose
 
 This project was created to:
 
@@ -84,7 +84,7 @@ Build a professional online presence
 Support applications for junior and entry-level software developer roles
 
 ---
- Contact
+## Contact
 
 Nonyelum Maureen Ogbuakanne
 📍 Calgary, Alberta, Canada
@@ -94,7 +94,7 @@ Nonyelum Maureen Ogbuakanne
 🌐 Portfolio: https://nonye96.github.io/NonyelumMaureen-Portfolio/
 ```
 ---
- License
+## License
 
 This project is intended for personal portfolio and professional use.
 
