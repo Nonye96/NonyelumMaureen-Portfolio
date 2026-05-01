@@ -1,32 +1,52 @@
-# Nonyelum Maureen – Personal Portfolio Website
+# 🌐 Nonyelum Maureen – Personal Portfolio Website
 
-This repository contains the source code for my personal portfolio website. The site showcases my background as a Software Development student, highlights selected academic and personal projects, and provides access to my resume, GitHub repositories, and LinkedIn profile.
+This repository contains the source code for my personal portfolio website. It showcases my work as a **Frontend Developer specializing in React and React Native**, along with selected projects in mobile development, backend systems, and DevOps.
 
-## Live Website
-🔗 https://nonye96.github.io/NonyelumMaureen-Portfolio/
+## 🔗 Live Website
+ https://nonye96.github.io/NonyelumMaureen-Portfolio/
 
 ---
 
-## About the Website
+##  About the Portfolio
 
-This portfolio was built to present my technical skills, project experience, and professional profile in a clear and accessible way for recruiters and hiring teams.
+This portfolio was designed to present my technical skills, project experience, and professional profile in a clean and accessible format for recruiters and hiring teams.
 
 The website includes:
-- An introduction and professional summary
+
+- Professional introduction and background
 - Technical skills and tools
-- Selected academic and personal projects with GitHub links
+- Featured projects (mobile, frontend, backend, DevOps)
+- GitHub repository links for each project
 - Downloadable resume (PDF)
 - Contact information and social links
 
 ---
 
-## Technologies Used
+##  Featured Projects
 
-- HTML5
-- CSS3
-- JavaScript
-- Git & GitHub
-- GitHub Pages (deployment)
+- **Contribiia Mobile App (Capstone Project)**  
+  Fintech mobile app built with React Native and Supabase, supporting user authentication, wallet systems, and transaction tracking.
+
+- **Enterprise React App with Docker & Jenkins CI/CD**  
+  Containerized React application with automated build, test, and deployment pipeline using Jenkins and Docker.
+
+- **Temple Escape – Unreal Engine Game**  
+  Third-person adventure game featuring AI enemy behavior, scoring system, and win/lose mechanics.
+
+- **Bow Course Registration System (Team Project)**  
+  Full-stack web application for course registration and schedule management using React and backend APIs.
+
+---
+
+##  Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript, React
+- **Mobile:** React Native (Expo)
+- **Backend:** Node.js, REST APIs, Supabase
+- **Databases:** SQL
+- **Cloud & DevOps:** AWS (EC2, S3), Docker, Jenkins
+- **Tools:** Git, GitHub, VS Code
+- **Deployment:** GitHub Pages
 
 ---
 
@@ -43,41 +63,39 @@ NonyelumMaureen-Portfolio/
 │   └── myProfile-pic.jpg
 │
 ├── resume/
-│   └── Nonyelum_Maureen_Ogbuakanne_Resume.pdf
+│   └── Nonyelum_Ogbuakanne_Frontend_Developer.pdf
 │
 └── README.md
+```
+---
+ Deployment
+
+This website is deployed using GitHub Pages and is built from the main branch of this repository.
 
 ---
-
-## Deployment
-
-This website is deployed using **GitHub Pages** and is built directly from the **main branch** of this repository.
-
-
----
-
-## Purpose
+ Purpose
 
 This project was created to:
-- Practice front-end web development fundamentals
-- Build a professional online presence
-- Showcase real coursework and personal projects
-- Support applications for student, junior, and entry-level software development roles
+
+Showcase real-world and academic projects
+Demonstrate frontend and mobile development skills
+Highlight DevOps and cloud exposure
+Build a professional online presence
+Support applications for junior and entry-level software developer roles
 
 ---
+ Contact
 
-## Author
+Nonyelum Maureen Ogbuakanne
+📍 Calgary, Alberta, Canada
+```
+💻 GitHub: https://github.com/Nonye96
+🔗 LinkedIn: https://linkedin.com/in/nonyelum-ogbuakanne-689b13245
+🌐 Portfolio: https://nonye96.github.io/NonyelumMaureen-Portfolio/
+```
+---
+ License
 
-**Nonyelum Maureen Ogbuakanne**  
-Student Software Developer  
-📍 Calgary, Alberta, Canada  
-
-- GitHub: https://github.com/Nonye96  
-- LinkedIn: https://linkedin.com/in/nonyelum-ogbuakanne-689b13245  
-- Portfolio: https://nonye96.github.io/NonyelumMaureen-Portfolio/
+This project is intended for personal portfolio and professional use.
 
 ---
-
-## License
-
-This project is intended for personal and professional portfolio use.
