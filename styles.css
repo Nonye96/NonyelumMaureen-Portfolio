@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
@@ -18,8 +25,8 @@ a {
 
 .container {
     width: 90%;
-    max-width: 1100px;
-    margin: auto;
+    max-width: 900px; 
+    margin: 0 auto;
     padding: 20px 0;
 }
 
@@ -31,6 +38,7 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+     position: relative;
 }
 
 .header h1 {
@@ -59,18 +67,61 @@ nav {
 }
 
 .hero {
-    background: linear-gradient(to right, #007acc, #00c9a7);
+    background: linear-gradient(135deg, #007acc, #00c9a7);
     color: white;
-    padding: 60px 0;
+    padding: 90px 0;
 }
 
 .hero-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
     text-align: left;
+}
+
+.hero-content div {
+    max-width: 500px;
+}
+
+.hero-content h2 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.05rem;
+    max-width: 650px;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.primary-btn {
+    background: white;
+    color: #007acc;
+}
+
+.secondary-btn {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
 }
 
 .profile-pic {
@@ -98,17 +149,18 @@ nav {
 }
 
 .project-card {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
     border-left: 5px solid #00c9a7;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
 .project-card:hover {
-    transform: scale(1.02);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .project-card h3 {
@@ -173,6 +225,7 @@ nav {
     .hero-content {
         flex-direction: column;
         padding: 20px;
+        text-align: center;
     }
 
     .profile-pic {
@@ -185,16 +238,36 @@ nav {
         text-align: center;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
+    .hero-buttons {
+        justify-content: center; 
     }
 
-    nav {
-        float: none;
-        margin-top: 10px;
-    }
+  .menu-toggle {
+    display: block;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #121212;
+    display: none;
+}
+
+nav.active {
+    display: block;
+}
+
+.nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-links li {
+    margin: 15px 0;
+}  
 
     .section {
         padding: 40px 20px;

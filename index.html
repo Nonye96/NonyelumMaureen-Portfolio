@@ -8,11 +8,20 @@
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <header class="header">
     <div class="container header-flex">
+
       <h1>NonyelumMaureen.dev</h1>
 
-      <nav>
+      <!-- Hamburger -->
+      <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+      </div>
+
+      <!-- NAV -->
+      <nav id="nav">
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -22,49 +31,72 @@
         </ul>
       </nav>
 
+      <!-- Theme Button -->
       <button id="toggle-theme" class="theme-button">Dark Mode</button>
+
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
     <div class="container hero-content">
+
       <img src="images/myProfile-pic.jpg" alt="Nonyelum Maureen" class="profile-pic" />
 
       <div>
         <h2>Hi, I'm Nonyelum</h2>
+
         <p>Frontend Developer specializing in React and React Native.</p>
+
         <p>
           I build responsive web and mobile applications, with experience in backend development using Supabase —
           including authentication, wallet systems, and secure financial transactions.
         </p>
+
+        <!-- NEW BUTTONS -->
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+
+          <a href="resume/Nonyelum_Ogbuakanne_Frontend_Developer.pdf"
+             class="btn secondary-btn"
+             target="_blank">
+            Download Resume
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
 
+  <!-- ABOUT -->
   <section id="about" class="section">
-  <div class="container about-container">
-    <h2>About Me</h2>
+    <div class="container about-container">
 
-    <p>
-      I’m a frontend developer based in Calgary, Alberta, specializing in React and React Native.
-    </p>
+      <h2>About Me</h2>
 
-    <p>
-      I build responsive web and mobile applications with a strong focus on user experience and performance.
-    </p>
+      <p>
+        I’m a frontend developer based in Calgary, Alberta, specializing in React and React Native.
+      </p>
 
-    <p>
-      I also have backend experience using Supabase, where I implemented authentication, wallet systems, and secure financial transactions.
-    </p>
+      <p>
+        I build responsive web and mobile applications with a strong focus on user experience and performance.
+      </p>
 
-    <p>
-      I enjoy solving real-world problems, collaborating in teams, and building scalable applications.
-    </p>
-  </div>
-</section>
+      <p>
+        I also have backend experience using Supabase, where I implemented authentication, wallet systems, and secure financial transactions.
+      </p>
 
+      <p>
+        I enjoy solving real-world problems, collaborating in teams, and building scalable applications.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
   <section id="skills" class="section">
     <div class="container">
+
       <h2>Skills</h2>
 
       <ul>
@@ -75,121 +107,135 @@
         <li>Cloud & DevOps: AWS (EC2, S3), Azure Fundamentals, Docker, Jenkins</li>
         <li>Tools: Git, GitHub, VS Code, Agile/Scrum</li>
       </ul>
+
     </div>
   </section>
 
+  <!-- PROJECTS -->
   <section id="projects" class="section">
     <div class="container">
+
       <h2>Projects</h2>
       <p>A showcase of my best frontend, mobile, backend, and DevOps projects.</p>
 
+      <!-- Project 1 -->
       <div class="project-card">
         <h3>Contribiia Mobile App (Capstone Project)</h3>
+
         <p>
           A mobile fintech application that allows users to create and manage contribution circles, track transactions,
           and handle wallet activities securely.
         </p>
+
         <p>
           <strong>My Contributions:</strong> Built backend services using Supabase, implemented wallet and transaction
           logic, worked on user profiles and verification flow, and collaborated on frontend API integration.
         </p>
+
         <p><strong>Tech Used:</strong> React Native, Expo, TypeScript, Supabase, REST APIs</p>
-        <p>
-          <a href="https://github.com/Nonye96/contribiia-fintech-app" target="_blank" rel="noopener noreferrer">
-            View Code
-          </a>
-        </p>
+
+        <a href="https://github.com/Nonye96/contribiia-fintech-app" target="_blank">View Code</a>
       </div>
 
+      <!-- Project 2 -->
       <div class="project-card">
         <h3>Enterprise React App with Docker & Jenkins CI/CD</h3>
+
         <p>
           A React application containerized with Docker and automated using a Jenkins CI/CD pipeline for build, test,
           and deployment workflow.
         </p>
+
         <p>
           <strong>My Contributions:</strong> Built and tested Docker images, implemented Docker setup, contributed to
           Jenkins CI/CD pipeline setup and documentation, and tested deployment workflow.
         </p>
+
         <p><strong>Tech Used:</strong> React, Node.js, Docker, Jenkins, GitHub</p>
-        <p>
-          <a href="https://github.com/Nonye96/enterprise-computing-docker-jenkins" target="_blank" rel="noopener noreferrer">
-            View Code
-          </a>
-        </p>
+
+        <a href="https://github.com/Nonye96/enterprise-computing-docker-jenkins" target="_blank">View Code</a>
       </div>
 
+      <!-- Project 3 -->
       <div class="project-card">
         <h3>Temple Escape – Unreal Engine Game</h3>
+
         <p>
           A third-person adventure game where players escape a temple while avoiding AI enemies, collecting points, and
           completing objectives.
         </p>
+
         <p>
           <strong>My Contributions:</strong> Designed the level environment, implemented AI enemy patrol and chase logic,
           built HUD elements, and developed health, scoring, and win/lose systems.
         </p>
+
         <p><strong>Tech Used:</strong> Unreal Engine, Blueprints, AI Behavior Trees, Level Design</p>
-        <p>
-          <a href="https://github.com/Nonye96/temple-escape-unreal-game" target="_blank" rel="noopener noreferrer">
-            View Code
-          </a>
-        </p>
+
+        <a href="https://github.com/Nonye96/temple-escape-unreal-game" target="_blank">View Code</a>
       </div>
 
+      <!-- Project 4 -->
       <div class="project-card">
         <h3>Bow Course Registration System (Team Project)</h3>
+
         <p>
           A full-stack web application that allows students to register for courses, manage schedules, and interact with
           backend services.
         </p>
+
         <p>
           <strong>My Contributions:</strong> Built frontend UI components, implemented registration forms and validation,
           connected frontend to backend APIs, and collaborated using Git and GitHub.
         </p>
+
         <p><strong>Tech Used:</strong> React, JavaScript, Node.js, SQL, REST APIs, HTML, CSS</p>
-        <p>
-          <a href="https://github.com/Nonye96/bow-course-registration-system" target="_blank" rel="noopener noreferrer">
-            View Code
-          </a>
-        </p>
+
+        <a href="https://github.com/Nonye96/bow-course-registration-system" target="_blank">View Code</a>
       </div>
+
     </div>
   </section>
 
+  <!-- RESUME -->
   <section id="resume" class="section">
     <div class="container">
+
       <h2>Resume</h2>
-      <p>
-        <a href="resume/Nonyelum_Ogbuakanne_Frontend_Developer.pdf" target="_blank" rel="noopener noreferrer">
-          Download Resume
-        </a>
-      </p>
+
+      <a href="resume/Nonyelum_Ogbuakanne_Frontend_Developer.pdf" target="_blank">
+        Download Resume
+      </a>
+
     </div>
   </section>
 
+  <!-- CONTACT -->
   <section id="contact" class="section">
-  <div class="container">
-    <h2>Contact</h2>
+    <div class="container">
 
-    <p>Email: <a href="mailto:marcellinanono60@gmail.com">marcellinanono60@gmail.com</a></p>
+      <h2>Contact</h2>
 
-    <p>
-      LinkedIn:
-      <a href="https://www.linkedin.com/in/nonyelum-ogbuakanne-689b13245" target="_blank">
-        nonyelum-ogbuakanne
-      </a>
-    </p>
+      <p>Email: <a href="mailto:marcellinanono60@gmail.com">marcellinanono60@gmail.com</a></p>
 
-    <p>
-      GitHub:
-      <a href="https://github.com/Nonye96" target="_blank">
-        @Nonye96
-      </a>
-    </p>
-  </div>
-</section>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/nonyelum-ogbuakanne-689b13245" target="_blank">
+          nonyelum-ogbuakanne
+        </a>
+      </p>
 
+      <p>
+        GitHub:
+        <a href="https://github.com/Nonye96" target="_blank">
+          @Nonye96
+        </a>
+      </p>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <p>&copy; 2026 Nonyelum Maureen. All rights reserved.</p>
